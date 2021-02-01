@@ -1,0 +1,93 @@
+.projects{
+    float: left;
+    padding: 10px 0px 80px 80px;
+    width:90vw;
+}
+.projects_title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 600;
+    padding-left: 10px;
+    border-left: 4px solid #6c757d;
+}
+.project_card{
+    float: left;
+    width: 460px;
+    height: 160px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.project_card2{
+    float: left;
+    width: 460px;
+    height: 160px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.project_tech_logo{
+    padding-top: 20px;
+    width: 25px;
+    margin-left: 15px ;
+    float:right;
+}
+.project_title{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color:  #343a40;
+}
+.project_content{
+    padding-top: 10px;
+}
+.project_date{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    color: #a7aaaf;
+}
+.code_button{
+    float: left;
+    width: 100;
+    margin-top: 12px;
+    padding: 7px 12px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+.code_button:hover{
+    background-color: rgb(14, 13, 13);
+}
+.project_git_repo{
+    width: 20px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 858px){
+    .projects{
+        float: left;
+        padding: 0px 0px 50px 20px;
+        width:90vw;
+    }
+    .project_context{
+        float: left;
+        width: 260px;
+    }
+    .project_img img{
+        width: 140px;
+        height: 100px;
+        float: right; 
+    }
+    .project_card{
+        height: 200px;
+    }
+    .project_card2{
+        margin-left: 0px;
+    }
+}

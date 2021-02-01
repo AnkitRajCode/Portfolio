@@ -1,0 +1,89 @@
+/*footer*/
+.footer{
+    width: 100vw;
+    float: left;
+    background-color: #343a40;
+}
+.Collaboration{
+    width: 700px;
+    float: left;
+    padding: 30px;
+}
+.collab_title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: .85rem;
+    float: left;
+    color: #ffc107;
+    width: 400px;
+}
+.collab_detail{
+    font-size: 1.25rem;
+    margin-bottom: .75rem;
+    text-decoration: none;
+    width: 400px;
+    color: white;
+    float: left;
+    display: inline;
+}
+.collab_tel{
+    color: #17a2b8;
+}
+.collab_email{
+    color: #dc3545;
+}
+.redirect_whatsapp{
+    color: #25d366; 
+    text-decoration: none;
+}
+.whatsapp_logo{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+#footer_line{
+    width: 0.9px;
+    background-color: white;
+    height: 130px;
+    float: left;
+    margin-top: 30px;
+}
+.copyright{
+    width: 400px;
+    float: left;
+    padding-left: 30px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.copyright_logo{
+    letter-spacing: 1px;
+    margin: 10px 0px 0px 95px;
+}
+.social_media_logo{
+    display: none;
+}
+@media screen and (max-width: 858px){
+    #footer_line{
+        display: none;
+    }
+    .Collaboration{
+        padding: 30px 30px 0px 30px;
+    }
+    .copyright{
+        padding: 30px 0px 20px 20px;
+    }
+    .social_media_logo{
+        width: 30px;
+        height: 30px;
+        display: block;
+        float: left;
+        margin-left: 10px;
+    }
+    .copyright_text{
+        display: none;
+    }
+    .copyright_logo{
+        letter-spacing: 1px;
+        margin: 10px 0px 0px 10px;
+    }
+}

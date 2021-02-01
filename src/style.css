@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+.Body{
+    overflow-x: hidden;
+}
+/* for removing scroll bar */
+::-webkit-scrollbar {
+    width: 0px;
+}
+.sideBar{
+    width: 3%;
+    height: 95vh;
+    background-color: rgb(0, 0, 0);
+    padding: 1.5%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    float: left;
+    text-align: center;
+    position: fixed;
+}
+.mainBody{
+    width:94%;
+    float: right;
+    overflow: hidden;
+}
+@media screen and (max-width: 858px){
+    .sideBar{
+        width: 0px;
+        padding: 0px;
+    }
+    .mainBody{
+        width:100vw;
+    }
+}

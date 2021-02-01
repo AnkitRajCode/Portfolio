@@ -1,0 +1,75 @@
+.tech_tool {
+  float: left;
+  padding: 10px 0px 80px 80px;
+  width: 90vw;
+}
+
+.tech_tool_title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  font-size: 40px;
+  font-weight: 600;
+  border-left: 4px solid #17a2b8;
+  padding: 0px 10px;
+}
+
+.lang_card {
+  float: left;
+  width: 100px;
+  height: 120px;
+  padding: 10px;
+  border-radius: 7px;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  margin-top: 30px;
+  margin-left: 60px;
+  text-align: center;
+  color: #404040;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.title_track {
+  padding-top: 3px;
+  font-weight: 700;
+  color: #404040;
+  display: none;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.lang_card:hover {
+  -webkit-box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.2), -8px -8px 12px 0 rgba(225, 225, 225, 0.2);
+          box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.2), -8px -8px 12px 0 rgba(225, 225, 225, 0.2);
+  -webkit-transform: scale(1.01) translateY(2px);
+          transform: scale(1.01) translateY(2px);
+  display: block;
+}
+
+.lang_card:hover .title_track {
+  display: block;
+}
+
+.tech_logo {
+  width: 100%;
+  height: 100px;
+}
+
+@media screen and (max-width: 885px) {
+  .tech_tool {
+    width: 100vw;
+    padding: 50px 0px 50px 20px;
+  }
+  .tech_tool_title {
+    font-size: 28px;
+  }
+  .lang_card {
+    margin-left: 35px;
+  }
+  .tech_logo {
+    width: 100%;
+    height: 80px;
+  }
+}
+/*# sourceMappingURL=tech_tool.css.map */
