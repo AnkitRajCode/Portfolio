@@ -12,14 +12,14 @@ nav{
     z-index:80;
 }
 .nav_logo{
-    background-image: url('../img/logo.jpg');
+    background-image: url('../img/logo.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     float: left;
-    margin: 20px 40px;
+    margin: 15px 0px 0px 15px;
     cursor: pointer;
 }
 .checkbtn{
@@ -28,7 +28,7 @@ nav{
     height: 60px;
     font-size: 30px;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 30px;
     float: right;
     display: none;
     cursor: pointer;
@@ -91,14 +91,15 @@ nav{
     }
     nav ul li{
         display: block;
-        margin: 50px 0;
+        margin: 50px 0px;
         line-height: 80px;
         list-style: none;
+        text-align: center;
     }
     nav ul li a{
         color: white;
         font-size: 20px;
-        padding: 7px 13px;
+        padding: 7px 20px 7px 0px ;
         border-radius: 3px;
         text-decoration: none;
     }
@@ -113,5 +114,6 @@ nav{
     }
     .typingEffect{
         margin-left: 10%;
+        font-size: 40px;
     }
 }

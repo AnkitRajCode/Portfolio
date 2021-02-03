@@ -20,9 +20,9 @@ class sidebar extends Component {
             </div>
             <div className="social">
                <a href="https://www.facebook.com/profile.php?id=100008053720762" target="_blank" rel="noopener noreferrer" title="Facebook"><img src={facebook}  alt="socialMediaLogo" className="social_logo"/></a>
-               <a href="https://instagram.com/dj_ankit_raj?igshid=ftwwnll01zhi" target="_blank" rel="noopener noreferrer" title="Instagram"><img src={instagram}  alt="socialMediaLogo" className="social_logo"/></a>
-               <a href="https://twitter.com/ankit__raj__?s=08" target="_blank" rel="noopener noreferrer" title=""><img src={twitter}  alt="socialMediaLogo" className="social_logo"/></a>
+               <a href="https://instagram.com/a.n.k.i.t_r.a.j_?igshid=g421khvbs56p" target="_blank" rel="noopener noreferrer" title="Instagram"><img src={instagram}  alt="socialMediaLogo" className="social_logo"/></a>
                <a href="https://www.linkedin.com/in/ankit-raj-a3405b1b0" target="_blank" rel="noopener noreferrer" title=""><img src={linkedin}  alt="socialMediaLogo" className="social_logo"/></a>
+               <a href="https://twitter.com/ankit__raj__?s=08" target="_blank" rel="noopener noreferrer" title=""><img src={twitter}  alt="socialMediaLogo" className="social_logo"/></a>
                <a href="https://github.com/AnkitRajCode" target="_blank" rel="noopener noreferrer" title=""><img src={github}  alt="socialMediaLogo" className="social_logo"/></a>
             </div>
          </div>

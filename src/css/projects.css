@@ -79,15 +79,14 @@
         float: left;
         width: 260px;
     }
-    .project_img img{
-        width: 140px;
-        height: 100px;
-        float: right; 
-    }
-    .project_card{
+    .project_card,.project_card2{
         height: 200px;
-    }
-    .project_card2{
         margin-left: 0px;
+    }
+}
+@media screen and (max-width: 400px){
+    .project_card,.project_card2{
+        width: 350px;
+        height: 230px;
     }
 }

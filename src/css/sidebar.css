@@ -1,9 +1,8 @@
 .logo{
     float: left;
-    width: 30px;
-    height: 30px;
-    margin-left: 5px;
-    background-image: url('../img/logo.jpg');
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/logo.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +10,7 @@
 }
 .social{
     text-align: center;
-    margin-top: 23vh;
+    margin-top: 24vh;
 }
 .social_logo{
     width: 28px;

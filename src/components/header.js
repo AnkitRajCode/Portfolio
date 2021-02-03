@@ -34,6 +34,7 @@ class header extends Component {
                   <li><Link to="tech_tool" smooth={true} duration={1000} >Tech & Tools</Link></li>
                   <li><Link to="projects" smooth={true} duration={1000} >Projects</Link></li>
                   <li><Link to="journey" smooth={true} duration={1000} >Journey</Link></li>
+                  <li><Link to="contact" smooth={true} duration={1000} >Contact</Link></li>
                </ul>
                <Link to="header" smooth={true} duration={1000} className="nav_logo"></Link>
             </nav>

@@ -45,7 +45,7 @@
     background-color:#e9ecef;
     height: 150px;
     width: 2px;
-    margin-left: 45px;;
+    margin-left: 45px;
     top: 0;
     margin-top: -4px;
     left: 0;
@@ -70,13 +70,13 @@
 }
 .timeline_detail_genesis{
     float: left;
-    margin-top: 95px;
+    margin-top: 105px;
     margin-left: 20px;
     width: 70%;
 }
 .timeline_detail_acm{
     float: left;
-    margin-top: 110px;
+    margin-top: 75px;
     margin-left: 20px;
     width: 70%;
 }
@@ -116,7 +116,7 @@
         width: 70%;
     }
     .timeline_detail_vvrs{
-        margin-top: 105px;
+        margin-top: 85px;
         margin-left: 0px;
     }
     .timeline_detail_bps{
@@ -129,8 +129,44 @@
         width: 70%;
     }
     .timeline_detail_acm{
-        margin-top: 125px;
+        margin-top: 95px;
         margin-left: 0px;
         width: 70%;
+    }
+}
+@media screen and (max-width: 400px){
+    .journey{
+        float: left;
+        width:100vw;
+    }
+    .institute_title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .institute_location{
+        font-size: 18px;
+    }
+    .details{
+        font-size: 16px;
+    }
+    .timeline_detail_vvrs{
+        margin-top: 85px;
+        width: 70%;
+    }
+    .timeline_detail_bps{
+        margin-top: 40px;
+        width: 70%;
+    }
+    .timeline_detail_genesis{
+        margin-top: 85px;
+    }
+    .timeline_detail_acm{
+        margin-top: 85px;
+    }
+    .line_extend{
+        height: 180px;
+    }
+    .line{
+        margin-left: 40px;
     }
 }

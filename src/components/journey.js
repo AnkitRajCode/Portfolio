@@ -18,7 +18,7 @@ class journey extends Component {
                     <a href="https://kiit.ac.in/" target="_blank" rel="noopener noreferrer"><img src={KIIT} alt="logo" class="timeline_logo"/></a>
                     <div className="line"></div>
                     <a href="https://www.vidyavihar.org/" target="_blank" rel="noopener noreferrer"><img src={VVRS} alt="logo" class="timeline_logo"/></a>
-                    <div className="line"></div>
+                    <div className="line line_extend"></div>
                     <a href="https://bpspurnea.com/" target="_blank" rel="noopener noreferrer"><img src={BPS} alt="logo" class="timeline_logo"/></a>
                 </div>
                 <div className="timeline_detail_kiit">
@@ -55,14 +55,15 @@ class journey extends Component {
                 <div className="timeline_detail_kiit">
                     <div className="institute_title">Geeksforgeeks KIIT Student Chapter</div>
                     <div className="institute_location">Web Dev. Lead</div>
-                    <li className="details">Nov,2020 - Present</li>
+                    <li className="details">October,2020 - Present</li>
                     <li className="details">Lead team to Built GFG KIIT 1<sup>st</sup> Web Dev. Project</li>
                 </div>
                 <div className="timeline_detail_genesis">
                     <div className="institute_title">Genesis</div>
                     <div className="institute_location">Founder</div>
-                    <li className="details">Senior Secondary Education,CBSE</li>
                     <li className="details">June,2020 - Present</li>
+                    <li className="details">Coding Club Head</li>
+                    <li className="details">Conducted Coding Event Successfully</li>
                 </div>
                 <div className="timeline_detail_acm">
                     <div className="institute_title">KIIT ACM Student Chapter</div>
