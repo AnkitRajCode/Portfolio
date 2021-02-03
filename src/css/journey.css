@@ -135,6 +135,10 @@
     }
 }
 @media screen and (max-width: 400px){
+    .line{
+        height: 180px;
+        margin-left: 40px;
+    }
     .journey{
         float: left;
         width:100vw;
@@ -149,24 +153,23 @@
     .details{
         font-size: 16px;
     }
+    .timeline_detail_kiit{
+        width: 60%;
+    }
     .timeline_detail_vvrs{
-        margin-top: 85px;
-        width: 70%;
+        margin-top: 75px;
+        width: 60%;
     }
     .timeline_detail_bps{
         margin-top: 40px;
-        width: 70%;
+        width: 60%;
     }
     .timeline_detail_genesis{
-        margin-top: 85px;
+        margin-top: 100px;
+        width: 60%;
     }
     .timeline_detail_acm{
-        margin-top: 85px;
-    }
-    .line_extend{
-        height: 180px;
-    }
-    .line{
-        margin-left: 40px;
+        margin-top: 105px;
+        width: 60%;
     }
 }

@@ -86,7 +86,7 @@
 }
 @media screen and (max-width: 400px){
     .project_card,.project_card2{
-        width: 350px;
-        height: 230px;
+        width: 320px;
+        height: 240px;
     }
 }

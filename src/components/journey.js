@@ -18,7 +18,7 @@ class journey extends Component {
                     <a href="https://kiit.ac.in/" target="_blank" rel="noopener noreferrer"><img src={KIIT} alt="logo" class="timeline_logo"/></a>
                     <div className="line"></div>
                     <a href="https://www.vidyavihar.org/" target="_blank" rel="noopener noreferrer"><img src={VVRS} alt="logo" class="timeline_logo"/></a>
-                    <div className="line line_extend"></div>
+                    <div className="line"></div>
                     <a href="https://bpspurnea.com/" target="_blank" rel="noopener noreferrer"><img src={BPS} alt="logo" class="timeline_logo"/></a>
                 </div>
                 <div className="timeline_detail_kiit">
