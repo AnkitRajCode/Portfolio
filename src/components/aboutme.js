@@ -16,7 +16,7 @@ class aboutme extends Component {
                   I am also part of some coding clubs of my institute such as ACM KIIT and GFG KIIT, at GFG KIIT 
                   I am leading web development department where I and my team are working on various projects which are also helping me to grow in this field.
                </p>
-               <a href="https://drive.google.com/file/d/1Ir4Fq6gFPEg3Enywa8genJKwkhrWJc8O/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="code_button"><i class="fas fa-download"></i> Resume</a>
+               <a href="https://drive.google.com/file/d/17z7S6i-RPxN2JFCp6BJz7R41nAmBaHeJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="code_button"><i class="fas fa-download"></i> Resume</a>
             </div>
         </div>
       )
