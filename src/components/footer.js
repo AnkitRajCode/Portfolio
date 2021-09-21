@@ -12,19 +12,19 @@ class footer extends Component {
    render(){
       return (
          <div className="footer" id="contact">
-            <div class="Collaboration">
-               <div class="collab_title">For Collaboration</div>
-               <a href="tel:+919431231375" class="collab_detail">
-                  <lable className="collab_tel">Tel :</lable> +91 9431231375 
-                  <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=+919431231375&text=Hi,%20I%20would%20like%20to%20Collabrate%20with%20you.." class="redirect_whatsapp">
-                     <img src={whatsapp} alt="whatsapp logo" class="whatsapp_logo"/> Whatsapp</a>
+            <div className="Collaboration">
+               <div className="collab_title">For Collaboration</div>
+               <a href="tel:+919431231375" className="collab_detail">
+                  <span className="collab_tel">Tel :</span> +91 9431231375 
+                  <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=+919431231375&text=Hi,%20I%20would%20like%20to%20Collabrate%20with%20you.." className="redirect_whatsapp">
+                     <img src={whatsapp} alt="whatsapp logo" className="whatsapp_logo"/> Whatsapp</a>
                </a>
-               <a href="mailto:rajankit432@gmail.com?subject=Hey,%20Ankit%20Raj" class="collab_detail">
-                  <lable className="collab_email">Email: </lable>rajankit432@gmail.com
+               <a href="mailto:rajankit432@gmail.com?subject=Hey,%20Ankit%20Raj" className="collab_detail">
+                  <span className="collab_email">Email: </span>rajankit432@gmail.com
                </a>
             </div>
             <div id="footer_line"></div>
-            <div class="copyright">
+            <div className="copyright">
                <div>
                   <a href="https://www.facebook.com/profile.php?id=100008053720762" target="_blank" rel="noopener noreferrer" title="Facebook"><img src={facebook}  alt="socialMediaLogo" className="social_media_logo"/></a>
                   <a href="https://instagram.com/ankit_r.a.j?igshid=895xw0qgqmx2" target="_blank" rel="noopener noreferrer" title="Instagram"><img src={instagram}  alt="socialMediaLogo" className="social_media_logo"/></a>

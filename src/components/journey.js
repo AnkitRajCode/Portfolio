@@ -15,11 +15,11 @@ class journey extends Component {
             <div className="journey_sub_division">
                 <div className="journey_sub_title">Education</div>
                 <div className="timeline">
-                    <a href="https://kiit.ac.in/" target="_blank" rel="noopener noreferrer"><img src={KIIT} alt="logo" class="timeline_logo"/></a>
+                    <a href="https://kiit.ac.in/" target="_blank" rel="noopener noreferrer"><img src={KIIT} alt="logo" className="timeline_logo"/></a>
                     <div className="line"></div>
-                    <a href="https://www.vidyavihar.org/" target="_blank" rel="noopener noreferrer"><img src={VVRS} alt="logo" class="timeline_logo"/></a>
+                    <a href="https://www.vidyavihar.org/" target="_blank" rel="noopener noreferrer"><img src={VVRS} alt="logo" className="timeline_logo"/></a>
                     <div className="line"></div>
-                    <a href="https://bpspurnea.com/" target="_blank" rel="noopener noreferrer"><img src={BPS} alt="logo" class="timeline_logo"/></a>
+                    <a href="https://bpspurnea.com/" target="_blank" rel="noopener noreferrer"><img src={BPS} alt="logo" className="timeline_logo"/></a>
                 </div>
                 <div className="timeline_detail_kiit">
                     <div className="institute_title">Kalinga Institute of Industrial Technology,</div>
@@ -46,16 +46,16 @@ class journey extends Component {
             <div className="journey_sub_division_exp">
                 <div className="journey_sub_title">Experience</div>
                 <div className="timeline">
-                    <a href="https://instagram.com/gfg_kiit_club?igshid=jepmf9o4x2p0" target="_blank" rel="noopener noreferrer"><img src={GFG} alt="logo" class="timeline_logo"/></a>
+                    <a href="https://instagram.com/gfg_kiit_club?igshid=jepmf9o4x2p0" target="_blank" rel="noopener noreferrer"><img src={GFG} alt="logo" className="timeline_logo"/></a>
                     <div className="line"></div>
-                    <a href="https://instagram.com/genesis.journey?igshid=1lbfzyfu3zztj" target="_blank" rel="noopener noreferrer"><img src={GENESIS} alt="logo" class="timeline_logo"/></a>
+                    <a href="https://instagram.com/genesis.journey?igshid=1lbfzyfu3zztj" target="_blank" rel="noopener noreferrer"><img src={GENESIS} alt="logo" className="timeline_logo"/></a>
                     <div className="line"></div>
-                    <a href="https://instagram.com/kiitacm?igshid=yv6pu5g8l5ua" target="_blank" rel="noopener noreferrer"><img src={ACM} alt="logo" class="timeline_logo"/></a>
+                    <a href="https://instagram.com/kiitacm?igshid=yv6pu5g8l5ua" target="_blank" rel="noopener noreferrer"><img src={ACM} alt="logo" className="timeline_logo"/></a>
                 </div>
                 <div className="timeline_detail_kiit">
                     <div className="institute_title">Geeksforgeeks KIIT Student Chapter</div>
                     <div className="institute_location">Web Dev. Lead</div>
-                    <li className="details">October,2020 - Present</li>
+                    <li className="details">October,2020 - June,2021</li>
                     <li className="details">Lead team to Built GFG KIIT 1<sup>st</sup> Web Dev. Project</li>
                 </div>
                 <div className="timeline_detail_genesis">
@@ -68,7 +68,7 @@ class journey extends Component {
                 <div className="timeline_detail_acm">
                     <div className="institute_title">KIIT ACM Student Chapter</div>
                     <div className="institute_location">Competetive Programmer</div>
-                    <li className="details">Feb,2020 - Present</li>
+                    <li className="details">Feb,2020 - June,2020</li>
                 </div>
             </div>
         </div>

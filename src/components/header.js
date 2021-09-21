@@ -27,7 +27,7 @@ class header extends Component {
             <nav>
                <input type="checkbox" id = "check"/>
                <label for = "check" className="checkbtn nav_checkbtn">
-                  <i class="fas fa-bars"  id="burger-menu"></i>
+                  <i className="fas fa-bars"  id="burger-menu"></i>
                </label>
                <ul>
                   <li><Link to="aboutme" smooth={true} duration={1000} >About me</Link></li>
